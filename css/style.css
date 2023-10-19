@@ -41,5 +41,13 @@ body {
 }
 
 #onpage {
-  color: #0ABAB5;
+  background-color: #D4AF37;
+}
+
+section {
+  background-color: #00D1CF;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 80%;
 }
