@@ -32,16 +32,14 @@ body {
 #main-navbar ul li a {
   display: block;
   padding: 15px 20px;
-  color: #0ABAB5;
+  color: #E7E6F7;
   text-decoration: none;
+  font-family: 'Teko', impact, sans-serif;
 }
 
-#main-navbar ul li a:hover {
+#main-navbar ul li a:hover, #onpage {
   background-color: #D4AF37;
-}
-
-#onpage {
-  background-color: #D4AF37;
+  color: %FFFFFF;
 }
 
 section {
@@ -49,4 +47,8 @@ section {
   margin: auto;
   padding: 0;
   width: 80%;
+}
+
+p, li {
+  font-family: "URW Chancery L", "Apple Chancery", cursive;
 }
