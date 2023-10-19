@@ -32,9 +32,10 @@ body {
 #main-navbar ul li a {
   display: block;
   padding: 15px 20px;
-  color: #E7E6F7;
+  color: #C0C0C0;
   text-decoration: none;
   font-family: 'Teko', impact, sans-serif;
+  font-size: 150%;
 }
 
 #main-navbar ul li a:hover, #onpage {
@@ -50,5 +51,5 @@ section {
 }
 
 p, li {
-  font-family: "URW Chancery L", "Apple Chancery", cursive;
+  font-family: cursive;
 }
