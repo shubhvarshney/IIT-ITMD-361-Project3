@@ -32,15 +32,19 @@ body {
 #main-navbar ul li a {
   display: block;
   padding: 15px 20px;
-  color: #C0C0C0;
+  color: #536878;
   text-decoration: none;
   font-family: 'Teko', impact, sans-serif;
   font-size: 150%;
 }
 
-#main-navbar ul li a:hover, #onpage {
+#main-navbar ul li a:hover {
   background-color: #D4AF37;
   color: #FFFFFF;
+}
+
+#onpage {
+  background-color: #D4AF37;
 }
 
 section {
@@ -48,6 +52,8 @@ section {
   margin: auto;
   padding: 0;
   width: 80%;
+  border-style: double;
+  border-radius: 10px;
 }
 
 p, li {
