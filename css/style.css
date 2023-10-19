@@ -32,14 +32,14 @@ body {
 #main-navbar ul li a {
   display: block;
   padding: 15px 20px;
-  color: #fff;
+  color: #0ABAB5;
   text-decoration: none;
 }
 
 #main-navbar ul li a:hover {
-  background-color: #000;
+  background-color: #D4AF37;
 }
 
 #onpage {
-  text-decoration: underline overline;
+  color: #0ABAB5;
 }
