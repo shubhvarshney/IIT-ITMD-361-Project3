@@ -49,13 +49,20 @@ body {
 
 section {
   background-color: #00D1CF;
-  margin: auto;
-  padding: 0;
+  margin: 5% auto;
+  padding: 5%;
   width: 60%;
   border-style: double;
   border-radius: 10px;
 }
 
+h1, h3 {
+  color: #FF9912;
+  text-align: center;
+}
 p, li {
-  font-family: cursive;
+  color: #FFD700;
+  font-family: 'Brush Script MT', cursive;
+  position: relative;
+  text-align: center;
 }
