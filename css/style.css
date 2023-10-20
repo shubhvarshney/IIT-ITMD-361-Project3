@@ -92,11 +92,11 @@ footer a {
 
 #quote {
   font-size: 2em;
+  font-family: 'Teko', impact, sans-serif;
   color: #FFBF00;
   text-decoration: underline;
   text-decoration-color: #02075D;
   text-decoration-style: double;
-  text-decoration-thickness: 1.5em;
 }
 
 #linkedin {
