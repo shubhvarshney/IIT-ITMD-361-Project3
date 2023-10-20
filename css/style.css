@@ -89,3 +89,21 @@ footer a {
   font-family: 'Teko', impact, sans-serif;
   font-size: 2em;
 }
+
+#quote {
+  font-size: 2em;
+  color: #FFBF00;
+  text-decoration: underline;
+  text-decoration-color: #02075D;
+  text-decoration-style: double;
+  text-decoration-thickness: 1.5em;
+}
+
+#linkedin {
+  font-size: 1.5em;
+  text-shadow: 2px 2px #FF0000;
+}
+
+#resumeUL {
+  list-style-type: square;
+}
