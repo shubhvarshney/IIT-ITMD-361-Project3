@@ -72,6 +72,11 @@ a, p, ul, ol {
   position: relative;
 }
 
+ul, ol {
+  display: inline-block;
+  text-align: left;
+}
+
 footer {
   background-color: #FFD8B1;
   width: 100%;
