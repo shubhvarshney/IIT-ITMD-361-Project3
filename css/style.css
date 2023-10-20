@@ -55,11 +55,13 @@ section {
   border-style: double;
   border-radius: 10px;
   border-width: 2em;
+  text-align: center;
 }
 
 h1, h2, h3 {
   font-family: 'Allura', cursive;
   color: #440B11;
+  position: relative;
   text-align: center;
   font-size: 1.5em;
 }
@@ -67,20 +69,14 @@ h1, h2, h3 {
 a, p, ul, ol {
   color: #840000;
   font-family: cursive;
-}
-
-p {
-  text-align: center;
-}
-
-a, ul, ol {
   position: relative;
-  margin: auto;
 }
 
 footer {
   background-color: #FFD8B1;
   width: 100%;
+  position: relative;
+  text-align: center;
 }
 
 footer a {
@@ -88,5 +84,4 @@ footer a {
   text-decoration: none;
   font-family: 'Teko', impact, sans-serif;
   font-size: 2em;
-  margin: auto;
 }
