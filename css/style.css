@@ -54,20 +54,28 @@ section {
   width: 60%;
   border-style: double;
   border-radius: 10px;
-  border-width: 3px;
+  border-width: 2em;
 }
 
 h1, h2, h3 {
   font-family: 'Allura', cursive;
   color: #440B11;
   text-align: center;
-  font-size: 120%;
+  font-size: 1.5em;
 }
 
 a, p, ul, ol {
   color: #840000;
   font-family: cursive;
+}
+
+p {
   text-align: center;
+}
+
+a, ul, ol {
+  position: relative;
+  margin: auto;
 }
 
 footer {
@@ -79,6 +87,6 @@ footer a {
   color: #536878;
   text-decoration: none;
   font-family: 'Teko', impact, sans-serif;
-  font-size: 150%;
+  font-size: 2em;
   margin: auto;
 }
