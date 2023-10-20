@@ -65,7 +65,7 @@ h1, h2, h3 {
 a, p, ul, ol {
   color: #F33829;
   font-family: cursive;
-  margin: auto;
+  text-align: center;
 }
 
 footer {
@@ -78,6 +78,5 @@ footer a {
   text-decoration: none;
   font-family: 'Teko', impact, sans-serif;
   font-size: 150%;
-  position: relative;
-  text-align: center;
+  margin: auto;
 }
