@@ -66,6 +66,18 @@ a, p, ul, ol {
   color: #F33829;
   font-family: cursive;
   margin: auto;
+}
+
+footer {
+  background-color: #FFD8B1;
+  width: 100%;
+}
+
+footer a {
+  color: #536878;
+  text-decoration: none;
+  font-family: 'Teko', impact, sans-serif;
+  font-size: 150%;
   position: relative;
   text-align: center;
 }
