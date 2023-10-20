@@ -62,7 +62,7 @@ h1, h2, h3 {
   text-align: center;
 }
 
-p, ul {
+p, ul, ol {
   color: #F33829;
   font-family: cursive;
   margin: auto;
