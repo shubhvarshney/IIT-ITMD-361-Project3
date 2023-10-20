@@ -49,20 +49,20 @@ body {
 
 section {
   background-color: #00D1CF;
-  margin: 5% auto;
-  padding: 5%;
+  margin: 2% auto;
+  padding: 2%;
   width: 60%;
   border-style: double;
   border-radius: 10px;
 }
 
 h1, h3 {
-  color: #FF9912;
+  color: #440B11;
   text-align: center;
 }
 
-p, li {
-  color: #FFD700;
+p, ul {
+  color: #F33829;
   font-family: 'Brush Script MT', cursive;
   position: relative;
   text-align: center;
