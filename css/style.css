@@ -60,6 +60,7 @@ h1, h2, h3 {
   font-family: 'Allura', cursive;
   color: #440B11;
   text-align: center;
+  font-size: 120%;
 }
 
 a, p, ul, ol {
