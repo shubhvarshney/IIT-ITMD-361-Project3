@@ -54,6 +54,7 @@ section {
   width: 60%;
   border-style: double;
   border-radius: 10px;
+  border-width: 3px;
 }
 
 h1, h2, h3 {
