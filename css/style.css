@@ -93,7 +93,6 @@ footer a {
 #quote {
   font-size: 2em;
   font-family: 'Teko', impact, sans-serif;
-  font-style: oblique;
   color: #FFBF00;
   text-decoration: underline;
   text-decoration-color: #02075D;
@@ -108,4 +107,42 @@ footer a {
 
 #resumeUL {
   list-style-type: square;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #FADA5E;
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-color: #B1D4E0;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgba(177,212,224, .7);
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: #fff;
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: #B1D4E0;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+audio {
+  width: 2em;
+}
+
+#musicUL {
+  list-style-type: circle;
+}
+
+.songName {
+  color: #B1D4E0;
+  font-size: 1.5em;
+  text-shadow: 2px 2px #9B870C;
 }
