@@ -65,6 +65,7 @@ h1, h2, h3 {
 p, ul {
   color: #F33829;
   font-family: cursive;
+  margin: auto;
   position: relative;
   text-align: center;
 }
