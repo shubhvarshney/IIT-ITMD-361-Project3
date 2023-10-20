@@ -101,7 +101,8 @@ footer a {
 
 #linkedin {
   font-size: 1.5em;
-  text-shadow: 2px 2px #FF0000;
+  color: #02075D
+  text-shadow: 1px 1px #0000FF;
 }
 
 #resumeUL {
