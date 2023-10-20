@@ -50,7 +50,7 @@ body {
 section {
   background-color: #00D1CF;
   margin: 2% auto;
-  padding: 0.5%;
+  padding: 2%;
   width: 60%;
   border-style: double;
   border-radius: 10px;
@@ -64,6 +64,7 @@ h1, h2, h3 {
   position: relative;
   text-align: center;
   font-size: 2em;
+  margin: 0;
 }
 
 a, p, ul, ol {
