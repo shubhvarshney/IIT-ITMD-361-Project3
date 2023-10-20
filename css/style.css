@@ -57,13 +57,14 @@ section {
 }
 
 h1, h3 {
+  font-family: 'Allura', cursive;
   color: #440B11;
   text-align: center;
 }
 
 p, ul {
   color: #F33829;
-  font-family: 'Brush Script MT', cursive;
+  font-family: cursive;
   position: relative;
   text-align: center;
 }
