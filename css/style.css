@@ -151,7 +151,7 @@ audio {
 #transition {
   font-size: 1.5em;
   animation-name: colors;
-  animation-duration: 12s;
+  animation-duration: 4s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
