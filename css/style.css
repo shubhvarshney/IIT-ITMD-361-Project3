@@ -157,7 +157,7 @@ img {
 }
 
 #transition {
-  font-size: 1.5em;
+  font-size: 30px;
   animation-name: colors;
   animation-duration: 4s;
   animation-timing-function: linear;
