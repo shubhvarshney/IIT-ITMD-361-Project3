@@ -147,3 +147,21 @@ audio {
   font-size: 1.5em;
   text-shadow: 2px 2px #9B870C;
 }
+
+#transition {
+  font-size: 1.5em;
+  text-shadow: #C83200;
+  animation-name: colors;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframe colors {
+  0% { color: FF4300; text-shadow: #C83200; }
+  25% { color: FF8000; text-shadow: #C65900; }
+  50% { color: FFD400; text-shadow: #C67700; }
+  75% { color: FFFA00; text-shadow: #C69500; }
+  100% { color: BBFF00; text-shadow: #C6C300; }
+}
