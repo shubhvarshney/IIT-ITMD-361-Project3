@@ -150,7 +150,6 @@ audio {
 
 #transition {
   font-size: 1.5em;
-  text-shadow: #C83200;
   animation-name: colors;
   animation-duration: 12s;
   animation-timing-function: linear;
@@ -158,7 +157,7 @@ audio {
   animation-direction: alternate;
 }
 
-@keyframe colors {
+@keyframes colors {
   0% { color: #FF4300; text-shadow: #C83200; }
   25% { color: #FF8000; text-shadow: #C65900; }
   50% { color: #FFD400; text-shadow: #C67700; }
