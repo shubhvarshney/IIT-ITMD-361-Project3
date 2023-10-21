@@ -159,9 +159,9 @@ audio {
 }
 
 @keyframe colors {
-  0% { color: FF4300; text-shadow: #C83200; }
-  25% { color: FF8000; text-shadow: #C65900; }
-  50% { color: FFD400; text-shadow: #C67700; }
-  75% { color: FFFA00; text-shadow: #C69500; }
-  100% { color: BBFF00; text-shadow: #C6C300; }
+  0% { color: #FF4300; text-shadow: #C83200; }
+  25% { color: #FF8000; text-shadow: #C65900; }
+  50% { color: #FFD400; text-shadow: #C67700; }
+  75% { color: #FFFA00; text-shadow: #C69500; }
+  100% { color: #BBFF00; text-shadow: #C6C300; }
 }
