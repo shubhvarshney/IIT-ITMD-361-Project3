@@ -148,6 +148,14 @@ audio {
   text-shadow: 2px 2px #9B870C;
 }
 
+img {
+  width: 300px;
+  border: 3px;
+  border-style: solid;
+  border-color: #B1D4E0;
+  border-radius: 10px;
+}
+
 #transition {
   font-size: 1.5em;
   animation-name: colors;
