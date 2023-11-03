@@ -106,7 +106,7 @@ footer a {
   text-shadow: 2px 2px #02075D;
 }
 
-#resumeUL {
+#resumeUL li{
   list-style-image: url("../images/star.png");
 }
 
