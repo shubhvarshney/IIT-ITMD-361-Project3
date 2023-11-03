@@ -107,7 +107,7 @@ footer a {
 }
 
 #resumeUL {
-  list-style-type: square;
+  list-style-image: url("images/star.png");
 }
 
 audio::-webkit-media-controls-panel {
