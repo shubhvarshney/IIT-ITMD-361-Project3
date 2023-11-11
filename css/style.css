@@ -119,24 +119,12 @@ audio::-webkit-media-controls-panel {
   background-color: #FADA5E;
 }
 
-audio::-webkit-media-controls-timeline {
-    background-color: #B1D4E0;
-    border-radius: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-audio::-webkit-media-controls-mute-button {
-  background-color: #B1D4E0;
-  border-radius: 50%;
-}
-
 audio::-webkit-media-controls-play-button:hover {
   background-color: rgba(177,212,224, .7);
 }
 
 audio::-webkit-media-controls-current-time-display {
-  color: #fff;
+  color: #FFF;
 }
 
 audio {
@@ -199,5 +187,17 @@ img {
 
   body {
     background-color: #FFE5B4;
+  }
+
+  audio::-webkit-media-controls-timeline {
+    background-color: #B1D4E0;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  audio::-webkit-media-controls-mute-button {
+    background-color: #B1D4E0;
+    border-radius: 50%;
   }
 }
