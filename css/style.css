@@ -119,6 +119,13 @@ audio::-webkit-media-controls-panel {
   background-color: #FADA5E;
 }
 
+audio::-webkit-media-controls-timeline {
+    background-color: #B1D4E0;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
 audio::-webkit-media-controls-mute-button {
   background-color: #B1D4E0;
   border-radius: 50%;
@@ -133,7 +140,7 @@ audio::-webkit-media-controls-current-time-display {
 }
 
 audio {
-  width: 24em;
+  width: 12em;
 }
 
 #musicUL {
@@ -186,10 +193,11 @@ img {
     font-family: 'Times New Roman', serif;
   }
 
-  audio::-webkit-media-controls-timeline {
-    background-color: #B1D4E0;
-    border-radius: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
+  audio {
+    width: 24em;
+  }
+
+  body {
+    background-color: #FFE5B4;
   }
 }
