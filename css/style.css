@@ -108,11 +108,11 @@ footer a {
 
 #resumeUL li{
   list-style: none;
-  padding: 10px 30px;
+  padding: 5px 15px;
   background-image: url("../images/star.png");
   background-repeat: no-repeat;
   background-position: left center;
-  background-size: 20px;
+  background-size: 10px;
 }
 
 audio::-webkit-media-controls-panel {
@@ -162,11 +162,55 @@ img {
   75% { color: #FFFA00; text-shadow: 2px 2px #C69500; }
   100% { color: #BBFF00; text-shadow: 2px 2px #C6C300; }
 }
-/*
+
 @media screen and (min-width: 700px) {
+  img {
+    width: 200px;
+  }
   
+  #transition {
+    font-size: 20px;
+    animation-duration: 3s;
+  }
+  
+  a, p, ul, ol {
+    font-family: 'Impact', fantasy;
+  }
+
+  audio {
+    width: 16em;
+  }
+
+  body {
+    background-color: #F88379;
+  }
+
+  audio::-webkit-media-controls-timeline {
+    background-color: #B1C2F0;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  audio::-webkit-media-controls-mute-button {
+    background-color: #B1C2F0;
+    border-radius: 40%;
+  }
+  
+  #resumeUL li{
+    padding: 10px 30px;
+    background-size: 20px;
+  }
+
+  .songName {
+    color: #B1C2F0;
+  }
+
+  #quote {
+    font-style: italic;
+  }
 }
-*/
+
 @media screen and (min-width: 1000px) {
   img {
     width: 300px;
