@@ -68,7 +68,7 @@ h1, h2, h3 {
 
 a, p, ul, ol {
   color: #840000;
-  font-family: 'Times New Roman', serif;
+  font-family: cursive;
 }
 
 ul, ol {
@@ -132,13 +132,6 @@ audio::-webkit-media-controls-current-time-display {
   color: #fff;
 }
 
-audio::-webkit-media-controls-timeline {
-  background-color: #B1D4E0;
-  border-radius: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 audio {
   width: 24em;
 }
@@ -190,6 +183,13 @@ img {
   }
   
   a, p, ul, ol {
-    font-family: cursive;
+    font-family: 'Times New Roman', serif;
+  }
+
+  audio::-webkit-media-controls-timeline {
+    background-color: #B1D4E0;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
