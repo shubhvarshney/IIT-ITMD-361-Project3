@@ -69,6 +69,7 @@ h1, h2, h3 {
 a, p, ul, ol {
   color: #840000;
   font-family: cursive;
+  font-size: 0.5em;
 }
 
 ul, ol {
@@ -173,7 +174,8 @@ img {
   }
   
   a, p, ul, ol {
-    font-family: 'Impact', fantasy;
+    font-family: Impact, sans-serif;
+    font-size: 1em;
   }
 
   audio {
@@ -223,6 +225,7 @@ img {
   
   a, p, ul, ol {
     font-family: 'Times New Roman', serif;
+    font-size: 2em;
   }
 
   audio {
