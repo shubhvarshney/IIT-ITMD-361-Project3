@@ -34,7 +34,7 @@ body {
   padding: 15px 20px;
   color: #536878;
   text-decoration: none;
-  font-family: 'Teko', impact, sans-serif;
+  font-family: 'Teko', helvetica, sans-serif;
   font-size: 150%;
 }
 
@@ -87,13 +87,13 @@ footer {
 footer a {
   color: #536878;
   text-decoration: none;
-  font-family: 'Teko', impact, sans-serif;
+  font-family: 'Teko', helvetica, sans-serif;
   font-size: 2em;
 }
 
 #quote {
   font-size: 2em;
-  font-family: 'Teko', impact, sans-serif;
+  font-family: 'Teko', helvetica, sans-serif;
   font-style: oblique;
   color: #FFBF00;
   text-decoration: underline;
@@ -174,7 +174,7 @@ img {
   }
   
   a, p, ul, ol {
-    font-family: Impact, sans-serif;
+    font-family: helvetica, sans-serif;
     font-size: 1em;
   }
 
