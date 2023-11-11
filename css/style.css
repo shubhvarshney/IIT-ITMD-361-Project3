@@ -97,7 +97,6 @@ footer a {
   color: #FFBF00;
   text-decoration: underline;
   text-decoration-color: #02075D;
-  text-decoration-style: double;
 }
 
 #linkedin {
@@ -208,6 +207,7 @@ img {
 
   #quote {
     font-style: italic;
+    text-decoration-style: double;
   }
 }
 
