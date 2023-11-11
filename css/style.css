@@ -154,14 +154,14 @@ audio {
 }
 
 img {
-  width: 300px;
+  width: 150px;
   border-radius: 10px;
 }
 
 #transition {
-  font-size: 30px;
+  font-size: 10px;
   animation-name: colors;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -174,3 +174,22 @@ img {
   75% { color: #FFFA00; text-shadow: 2px 2px #C69500; }
   100% { color: #BBFF00; text-shadow: 2px 2px #C6C300; }
 }
+
+@media screen and (min-width: 1000px) {
+  img {
+    width: 300px;
+  }
+  #transition {
+    font-size: 30px;
+    animation-duration: 4s;
+  }
+  a, p, ul, ol {
+    font-family: cursive;
+  }
+  
+}
+/*
+@media screen and (min-width: 700px) {
+  
+}
+*/
