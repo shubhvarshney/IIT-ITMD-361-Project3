@@ -1,3 +1,6 @@
+var jerseyMarker;
+var vegasMarker;
+
 function initMap() {
   var heatmapData = [
     new google.maps.LatLng(42.283, -87.943),
@@ -31,7 +34,7 @@ function initMap() {
   });
 
   var myLocation = new google.maps.LatLng(40.518, -74.412);
-  var jerseyMarker = new google.maps.Marker({
+  jerseyMarker = new google.maps.Marker({
     map,
     title: "I used to live here!",
     draggable: true,
@@ -42,7 +45,7 @@ function initMap() {
   jerseyMarker.addListener("click", toggleBounce1);
 
   var myLocation2 = new google.maps.LatLng(36.172, -115.139);
-  var vegasMarker = new google.maps.Marker({
+  vegasMarker = new google.maps.Marker({
     map,
     title: "One of the best places I've been to!",
     draggable: true,
