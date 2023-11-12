@@ -166,6 +166,7 @@ img {
 #map {
   height: 500px;
   margin: auto;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 700px) {
