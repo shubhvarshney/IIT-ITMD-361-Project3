@@ -35,6 +35,7 @@ function initMap() {
     position: myLocation,
     map,
     title: "I used to live here!",
+    draggable: true,
     animation: google.maps.Animation.DROP,
     icon: "images/jersey.png"
   });
@@ -45,6 +46,7 @@ function initMap() {
     position: myLocation2,
     map,
     title: "One of the best places I've been to!",
+    draggable: true,
     animation: google.maps.Animation.DROP,
     icon: "images/vegas.png"
   });
