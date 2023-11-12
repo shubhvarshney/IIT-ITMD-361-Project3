@@ -170,6 +170,7 @@ img {
 }
 
 #fotorama-container {
+  width: 60%;
   margin: auto;
 }
 
