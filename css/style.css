@@ -169,6 +169,10 @@ img {
   border-radius: 10px;
 }
 
+#fotorama-container {
+  margin: auto;
+}
+
 @media screen and (min-width: 700px) {
   img {
     width: 200px;
