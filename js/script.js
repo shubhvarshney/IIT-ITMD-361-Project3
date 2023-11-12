@@ -44,12 +44,10 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 42.283, lng: -87.953},
     zoom: 4,
-    mapTypeControl: true,
-    mapTypeControlOptions: {
-      style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-      mapTypeIds: ["satellite", "roadmap", "terrain"],
-    },
+    mapTypeId: "satellite",
   });
+
+  map.setTilt(20);
 
   var myLocation = new google.maps.LatLng(40.518, -74.412);
   jerseyMarker = new google.maps.Marker({
