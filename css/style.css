@@ -170,7 +170,7 @@ img {
 }
 
 #fotorama-container {
-  display: flex;
+  display: inline;
   text-align: center;
 }
 
