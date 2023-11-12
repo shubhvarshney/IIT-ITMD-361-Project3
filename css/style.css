@@ -169,6 +169,11 @@ img {
   border-radius: 10px;
 }
 
+.foto {
+  border-radius: 10px;
+  margin: auto;
+}
+
 @media screen and (min-width: 700px) {
   img {
     width: 200px;
