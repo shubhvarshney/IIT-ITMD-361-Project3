@@ -1,27 +1,27 @@
 function initMap() {
   var heatmapData = [
-    new google.maps.LatLng(42.283, 87.943),
-    new google.maps.LatLng(42.283, 87.945),
-    new google.maps.LatLng(42.283, 87.947),
-    new google.maps.LatLng(42.283, 87.949),
-    new google.maps.LatLng(42.283, 87.951),
-    new google.maps.LatLng(42.283, 87.955),
-    new google.maps.LatLng(42.283, 87.957),
-    new google.maps.LatLng(42.283, 87.969),
-    new google.maps.LatLng(42.283, 87.972),
-    new google.maps.LatLng(42.280, 87.943),
-    new google.maps.LatLng(42.280, 87.945),
-    new google.maps.LatLng(42.280, 87.947),
-    new google.maps.LatLng(42.280, 87.949),
-    new google.maps.LatLng(42.280, 87.951),
-    new google.maps.LatLng(42.280, 87.955),
-    new google.maps.LatLng(42.280, 87.957),
-    new google.maps.LatLng(42.280, 87.969),
-    new google.maps.LatLng(42.280, 87.972)
+    new google.maps.LatLng(42.283, -87.943),
+    new google.maps.LatLng(42.283, -87.945),
+    new google.maps.LatLng(42.283, -87.947),
+    new google.maps.LatLng(42.283, -87.949),
+    new google.maps.LatLng(42.283, -87.951),
+    new google.maps.LatLng(42.283, -87.955),
+    new google.maps.LatLng(42.283, -87.957),
+    new google.maps.LatLng(42.283, -87.969),
+    new google.maps.LatLng(42.283, -87.972),
+    new google.maps.LatLng(42.280, -87.943),
+    new google.maps.LatLng(42.280, -87.945),
+    new google.maps.LatLng(42.280, -87.947),
+    new google.maps.LatLng(42.280, -87.949),
+    new google.maps.LatLng(42.280, -87.951),
+    new google.maps.LatLng(42.280, -87.955),
+    new google.maps.LatLng(42.280, -87.957),
+    new google.maps.LatLng(42.280, -87.969),
+    new google.maps.LatLng(42.280, -87.972)
   ];
   
   var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 42.283, lng: 87.953},
+    center: {lat: 42.283, lng: -87.953},
     zoom: 8,
     mapTypeControl: true,
     mapTypeControlOptions: {
@@ -30,7 +30,7 @@ function initMap() {
     }
   });
 
-  var myLocation = new google.maps.LatLng(40.518, 74.412);
+  var myLocation = new google.maps.LatLng(40.518, -74.412);
   var jerseyMarker = new google.maps.Marker({
     position: myLocation,
     map,
@@ -40,7 +40,7 @@ function initMap() {
   });
   jerseyMarker.addListener("click", toggleBounce1);
 
-  var myLocation2 = new google.maps.LatLng(36.172, 115.139);
+  var myLocation2 = new google.maps.LatLng(36.172, -115.139);
   var vegasMarker = new google.maps.Marker({
     position: myLocation2,
     map,
