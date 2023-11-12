@@ -169,12 +169,6 @@ img {
   border-radius: 10px;
 }
 
-.fotorama {
-  display: inline;
-  text-align: center;
-  border-radius: 10px;
-}
-
 @media screen and (min-width: 700px) {
   img {
     width: 200px;
