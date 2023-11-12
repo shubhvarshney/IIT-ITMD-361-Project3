@@ -1,4 +1,25 @@
 function initMap() {
+  var heatmapData = [
+    new google.maps.LatLng(42.283, 87.943),
+    new google.maps.LatLng(42.283, 87.945),
+    new google.maps.LatLng(42.283, 87.947),
+    new google.maps.LatLng(42.283, 87.949),
+    new google.maps.LatLng(42.283, 87.951),
+    new google.maps.LatLng(42.283, 87.955),
+    new google.maps.LatLng(42.283, 87.957),
+    new google.maps.LatLng(42.283, 87.969),
+    new google.maps.LatLng(42.283, 87.972),
+    new google.maps.LatLng(42.280, 87.943),
+    new google.maps.LatLng(42.280, 87.945),
+    new google.maps.LatLng(42.280, 87.947),
+    new google.maps.LatLng(42.280, 87.949),
+    new google.maps.LatLng(42.280, 87.951),
+    new google.maps.LatLng(42.280, 87.955),
+    new google.maps.LatLng(42.280, 87.957),
+    new google.maps.LatLng(42.280, 87.969),
+    new google.maps.LatLng(42.280, 87.972)
+  ];
+  
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 42.283, lng: 87.953},
     zoom: 8,
@@ -28,6 +49,11 @@ function initMap() {
     icon: "images/vegas.png"
   });
   vegasMarker.addListener("click", toggleBounce2);
+
+  var heatmap = new google.maps.visualization.HeatmapLayer({
+    data: heatmapData
+  });
+  heatmap.setMap(map);
 }
 
 function toggleBounce1() {
