@@ -25,9 +25,9 @@ function initMap() {
     zoom: 4,
     mapTypeControl: true,
     mapTypeControlOptions: {
-      style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-      mapTypeIds: ["roadmap", "terrain"],
-    }
+      style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+      mapTypeIds: ["satellite", "roadmap", "terrain"],
+    },
   });
 
   var myLocation = new google.maps.LatLng(40.518, -74.412);
@@ -37,7 +37,7 @@ function initMap() {
     title: "I used to live here!",
     draggable: true,
     animation: google.maps.Animation.DROP,
-    icon: "images/jersey.png"
+    icon: "images/jersey.png",
   });
   jerseyMarker.addListener("click", toggleBounce1);
 
@@ -48,7 +48,7 @@ function initMap() {
     title: "One of the best places I've been to!",
     draggable: true,
     animation: google.maps.Animation.DROP,
-    icon: "images/vegas.png"
+    icon: "images/vegas.png",
   });
   vegasMarker.addListener("click", toggleBounce2);
 
