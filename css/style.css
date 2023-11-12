@@ -163,6 +163,10 @@ img {
   100% { color: #BBFF00; text-shadow: 2px 2px #C6C300; }
 }
 
+#map {
+  height: 100%;
+}
+
 @media screen and (min-width: 700px) {
   img {
     width: 200px;
