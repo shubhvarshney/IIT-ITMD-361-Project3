@@ -172,7 +172,7 @@ img {
 #fotorama-container {
   width: 60%;
   margin: auto;
-  border: 5px double;
+  border: 20px double black;
   border-radius: 10px;
 }
 
